@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song Player</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding: 20px;
+  }
+  body {
+    background-image: url("background.jpg");
+    background-size: cover; /* or "contain" for different scaling options */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* or "scroll" if you want the image to scroll with the content */
+
+  @media (max-width: 768px) {
+    /* Styles for mobile devices */
+    body {
+      background-size: cover;
+    }
+  }
+
+  @media (min-width: 769px) {
+    /* Styles for laptops and desktops */
+    body {
+      background-size: contain;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Here's a Song for you!</h1>
+  <audio controls>
+    <source src="Untitled audio.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
+<imag src="background.jpg" alt="Description of the image">
+</body>
+</html>

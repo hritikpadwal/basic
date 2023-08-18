@@ -23,6 +23,6 @@ This project demonstrates how to create an HTML webpage with an embedded audio p
 
 
 
-Replace placeholders like `your-username`, `audio-image-background-html`, `screenshot.png`, and the URLs with your actual GitHub username, repository name, screenshot filename, and the sources of your background image and audio content, respectively.
+Replace placeholders like `your-username`, `Untitled audio`, `background.jpg`, and the URLs with your actual GitHub username, repository name, screenshot filename, and the sources of your background image and audio content, respectively.
 
 This README provides an overview of the project, instructions for usage, a screenshot, licensing information, and acknowledgments for external resources used in your project. You can further customize it to include any additional sections or details specific to your project.
